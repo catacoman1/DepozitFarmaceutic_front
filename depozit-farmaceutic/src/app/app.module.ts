@@ -8,11 +8,13 @@ import { ProduseComponent } from './Components/produse/produse.component';
 import { HttpClientModule } from '@angular/common/http';
 
 import { TableModule } from 'primeng/table';
+import { RaportComponent } from './Components/raport/raport.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProduseComponent
+    ProduseComponent,
+    RaportComponent
   ],
   imports: [
     BrowserModule,
